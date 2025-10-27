@@ -1,16 +1,14 @@
 import streamlit as st
 
-st.title('나의 첫 웹 서비스 만들기!!')
+st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
-name = st.text_input('이름을 입력해주세요 : ')
-mbti = st.selectbox('MBTI를 선택해주세요:', [
-    'INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP', 
-    'ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'
+planet = st.selectbox('행성을 선택해주세요:', [
+    '수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성'
 ])
 
-# MBTI 설명 데이터 (더 자세히)
-mbti_data = {
+# 위성 설명 (더 자세히)
+planet = {
     'INTJ': {
         '특징': ' 전략적 사고와 높은 독립성을 가진 유형으로, 계획적이며 체계적입니다. '
                '논리적이고 분석적인 사고를 통해 문제를 해결하며, 목표 달성을 위해 끊임없이 노력합니다. '
