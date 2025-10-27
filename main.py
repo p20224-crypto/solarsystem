@@ -56,7 +56,7 @@ if st.button('특징 생성'):
     if selected_planet in planet_data:
         특징 = planet_data[selected_planet]['특징']
         위성 = planet_data[selected_planet]['위성']
-        위성_특징 = planet_data[selected_planet]['위성의 특징']
+        위성_특징 = planet_data[selected_planet]['위성_특징']
 
         st.write(f"**특징**: {특징}")
         st.write(f"**위성**: {위성}")
