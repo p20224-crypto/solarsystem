@@ -21,12 +21,12 @@ planet_data = {
         '특징': '생명체가 존재하며 대기가 질소와 산소로 구성되어 있다.',
         '대표적인_위성': '달',
         '위성_특징': {
-        '달': '지구에서 가장 가까운 천체',
-        },
-        '위성_이미지': {
-            st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832", caption="달", use_container_width=True)
-        },
+            '달': '지구에서 가장 가까운 천체',
     },
+    '위성_이미지': {
+        '달': 'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832'
+    },
+},
     '화성': {
         '특징': '매우 희박한 이산화탄소 대기, 낮은 중력, 물의 흔적이 있다.',
         '대표적인_위성': '포보스, 데이모스',
