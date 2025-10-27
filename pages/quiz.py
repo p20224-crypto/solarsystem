@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("태양계 클릭형 퀴즈")
+st.title("태양계 퀴즈")
 
 # 퀴즈 데이터
 quiz = [
