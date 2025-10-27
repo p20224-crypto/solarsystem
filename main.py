@@ -52,7 +52,7 @@ planet_data = {
 }
 
 if st.button('특징 생성'):
-    if planet in planet_data:
+    if selected_planet in planet_data:
         특징 = planet_data[planet]['특징']
         위성 = planet_data[planet]['위성']
 
