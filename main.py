@@ -46,10 +46,16 @@ if st.button('특징 생성'):
     if selected_planet in planet_data:
         특징 = planet_data[selected_planet].get('특징', '정보 없음')
         대표적인_위성 = planet_data[selected_planet].get('대표적인_위성', '정보 없음')
-        위성_특징 = planet_data[selected_planet].get('위성_특징', '정보 없음')
+        위성_특징 = planet_data[selected_planet].get('위성_특징', None)
 
         st.write(f"**특징**: {특징}")
-        st.write(f"**대표적인_위성**: {대표적인_위성}")
-        st.write(f"**위성_특징**: {위성_특징}")
+        st.write(f"**대표적인 위성**: {대표적인_위성}")
+
+        # 위성_특징이 dict이면 문단 나누어 표시
+        if isinstance(위성_특징, dict):
+            for 위성, 설명 in 위성_특징.items():
+                st.markdown(f"**{위성}**  \n{설명}\n")
+        else:
+            st.write(위성_특징 or "위성 관련 상세 정보가 없습니다.")
     else:
-        st.write(f"{name}님! 아직 {planet} 유형에 대한 정보가 없습니다.")
+        st.write(f"{selected_planet}에 대한 정보가 없습니다.")
