@@ -55,7 +55,7 @@ planet_data = {
                '높은 감정 지능을 지니고 있으며, 다른 사람의 감정을 잘 이해하고 공감합니다.',
         '위성': '마케팅 전문가, 작가, 예술가, 상담사, 교사',
     },
-}
+
 
 if st.button('특징 생성'):
     if selected_planet in planet_data:
