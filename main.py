@@ -60,6 +60,6 @@ if st.button('특징 생성'):
 
         st.write(f"**특징**: {특징}")
         st.write(f"**위성**: {위성}")
-        st.write(f"**위성의 특징**: {위성의 특징}")
+        st.write(f"**위성_특징**: {위성_특징}")
     else:
         st.write(f"{name}님! 아직 {planet} 유형에 대한 정보가 없습니다.")
