@@ -40,6 +40,7 @@ planet_data = {
             '칼리스토': '태양계에서 세 번째로 큰 위성으로, 표면 충돌구가 많다.',
         },
     },
+}
 
 if st.button('특징 생성'):
     if selected_planet in planet_data:
