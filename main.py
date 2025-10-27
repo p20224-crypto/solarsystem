@@ -56,7 +56,6 @@ if st.button('특징 생성'):
         특징 = planet_data[selected_planet]['특징']
         위성 = planet_data[selected_planet]['위성']
 
-        st.write(f"{selected_planet}님! 당신의 MBTI 유형은 {selected_planet}입니다!")
         st.write(f"**특징**: {특징}")
         st.write(f"**위성**: {위성}")
     else:
