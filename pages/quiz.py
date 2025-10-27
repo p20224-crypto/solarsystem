@@ -8,25 +8,21 @@ quiz = [
         "question": "태양계에서 가장 큰 행성은?",
         "options": ["지구", "목성", "화성", "금성"],
         "answer": "목성",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg"
     },
     {
         "question": "달의 위성 이름은?",
         "options": ["지구", "달", "포보스", "데이모스"],
         "answer": "달",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Moon.jpg"
     },
     {
         "question": "화성의 대표적인 위성은?",
         "options": ["포보스", "달", "가니메데", "이오"],
         "answer": "포보스",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Phobos-MRO.jpg"
     },
     {
         "question": "목성의 가장 큰 위성은?",
         "options": ["이오", "유로파", "가니메데", "칼리스토"],
         "answer": "가니메데",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ganymede_g1_true-edit1.jpg"
     },
 ]
 
