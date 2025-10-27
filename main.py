@@ -3,12 +3,12 @@ import streamlit as st
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
-planet = st.selectbox('행성을 선택해주세요:', [
+selected_planet = st.selectbox('행성을 선택해주세요:', [
     '수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성'
 ])
 
 # 위성 설명 (더 자세히)
-planet = {
+planet_data = {
     '수성': {
         '특징': ' 태양에서 가장 가깝고 태양계에서 가작 작은 행성. ',
         '위성': ' 없다. ',
