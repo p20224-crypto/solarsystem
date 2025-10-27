@@ -54,7 +54,7 @@ planet = {
 if st.button('특징 생성'):
     if planet in planet:
         특징 = planet[planet]['특징']
-        위성 = planet[planet['위성']
+        위성 = planet[planet]['위성']
 
         st.write(f"{planet}님! 당신의 MBTI 유형은 {planet}입니다!")
         st.write(f"**특징**: {특징}")
