@@ -23,7 +23,7 @@ planet_data = {
         '위성_특징': {
             '달': '지구에서 가장 가까운 천체',
     },
-st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832", caption="달", use_container_width=True)=sc960_832'
+st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832", caption="달", use_container_width=True)
     },
 },
     '화성': {
