@@ -23,7 +23,8 @@ planet_data = {
         '위성_특징': {
             '달': '지구에서 가장 가까운 천체',
     },
-st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832", caption="달", use_container_width=True)
+        '위성_이미지': { 
+            st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsung.com%2Ft5%2Fimage%2Fserverpage%2Fimage-id%2F8121811i5158A35A19FC5C45%3Fv%3Dv2&type=sc960_832", caption="달", use_container_width=True)
     },
 },
     '화성': {
@@ -69,6 +70,7 @@ st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsu
             '트리톤': '해왕성에서 가장 큰 위성으로, 태양계에서 7번째로 큰 위성이자 유일하게 자신의 행성 주위를 역행(행성 공전 방향과 반대)으로 도는 위성이다.',
             '나이아드': '해왕성에 가까운 궤도를 가진 작은 위성.',
             '탈라사': '불규칙한 모양이며, 위성들의 파편이 뭉쳐 만들어졌을 가능성이 크다.',
+        },
     },
 }
 
