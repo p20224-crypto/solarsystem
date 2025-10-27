@@ -69,9 +69,8 @@ st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsu
             '트리톤': '해왕성에서 가장 큰 위성으로, 태양계에서 7번째로 큰 위성이자 유일하게 자신의 행성 주위를 역행(행성 공전 방향과 반대)으로 도는 위성이다.',
             '나이아드': '해왕성에 가까운 궤도를 가진 작은 위성.',
             '탈라사': '불규칙한 모양이며, 위성들의 파편이 뭉쳐 만들어졌을 가능성이 크다.',
-        },
     },
-},
+}
 
 if st.button('특징 생성'):
     if selected_planet in planet_data:
