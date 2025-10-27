@@ -34,9 +34,9 @@ planet_data = {
 
 if st.button('특징 생성'):
     if selected_planet in planet_data:
-        특징 = planet_data[selected_planet]['특징']
-        대표적인_위성 = planet_data[selected_planet]['대표적인_위성']
-        위성_특징 = planet_data[selected_planet]['위성_특징']
+        특징 = planet_data[selected_planet].get('특징', '정보 없음')
+        대표적인_위성 = planet_data[selected_planet].get('대표적인_위성', '정보 없음')
+        위성_특징 = planet_data[selected_planet].get('위성_특징', '정보 없음')
 
         st.write(f"**특징**: {특징}")
         st.write(f"**대표적인_위성**: {대표적인_위성}")
