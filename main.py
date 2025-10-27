@@ -20,7 +20,7 @@ planet_data = {
     '지구': {
         '특징': '액체 상태의 물과 생명체가 존재하며, 질소와 산소로 이루어진 대기로 둘러싸여 있다. ',
         '위성': ' 달 ',
-        '위성의 특징': '지구에서 가장 가까운 천체',
+        '위성_특징': '지구에서 가장 가까운 천체',
     },
     '화성': {
         '특징': '매우 희박한 이산화탄소 대기, 낮은 중력, 물의 흔적이 있다. ',
@@ -56,7 +56,7 @@ if st.button('특징 생성'):
     if selected_planet in planet_data:
         특징 = planet_data[selected_planet]['특징']
         위성 = planet_data[selected_planet]['위성']
-        위성의 특징 = planet_data[selected_planet]['위성의 특징']
+        위성_특징 = planet_data[selected_planet]['위성의 특징']
 
         st.write(f"**특징**: {특징}")
         st.write(f"**위성**: {위성}")
