@@ -71,7 +71,7 @@ st.image("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fr1.community.samsu
             '탈라사': '불규칙한 모양이며, 위성들의 파편이 뭉쳐 만들어졌을 가능성이 크다.',
         },
     },
-}
+},
 
 if st.button('특징 생성'):
     if selected_planet in planet_data:
