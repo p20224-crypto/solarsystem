@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🌌 태양계 클릭형 퀴즈")
+st.title("태양계 클릭형 퀴즈")
 
 # 퀴즈 데이터
 quiz = [
@@ -48,7 +48,7 @@ for i, q in enumerate(quiz):
         if st.button("확인", key=f"btn{i}"):
             st.session_state.answered[i] = True
             if user_answer == q["answer"]:
-                st.success("정답! 🎉")
+                st.success("정답!")
                 st.session_state.score += 1
             else:
                 st.error(f"오답! 정답은 {q['answer']}입니다.")
