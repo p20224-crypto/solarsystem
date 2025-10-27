@@ -35,7 +35,6 @@ if "answered" not in st.session_state:
 # 문제 표시
 for i, q in enumerate(quiz):
     st.subheader(f"문제 {i+1}")
-    st.image(q["image"], caption=q["options"], use_container_width=True)
     st.write(f"**{q['question']}**")
 
     if not st.session_state.answered[i]:
