@@ -113,7 +113,7 @@ planet_data = {
             },
             '탈라사': {
                 '설명': '불규칙한 모양이며, 위성들의 파편이 뭉쳐 만들어졌을 가능성이 있다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Thalassa_moon.png'
+                '이미지': 'https://i.namu.wiki/i/nzlHwp7k7Ks4XuEcCgihOdyPtuacC_UZDWC8R96r6_BNvCiNkr9011uJENiXD32SxKPKcX1mt4SN_bi1_vdPjGb2Ut6UZUd_inSDH_VMRvpwMf01WHzuniHC2QGHjHPlkDDUzmoYkB5U-6t_JKdVkA.webp'
             },
         },
     },
