@@ -134,7 +134,7 @@ if st.button('특징 보기'):
             for 위성, 정보 in 위성_특징.items():
                 st.markdown(f"### 🛰️ {위성}")
                 st.write(정보['설명'])
-                st.image(정보['이미지'], use_column_width=True)
+                st.image(정보['이미지'], use_container_width=True)
         else:
             st.write("위성 관련 상세 정보가 없습니다.")
     else:
