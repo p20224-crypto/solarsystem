@@ -51,15 +51,15 @@ planet_data = {
             },
             '유로파': {
                 '설명': '표면 아래 거대한 지하 바다가 존재할 가능성이 높아 생명체 후보지로 주목받는다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Europa-moon.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA09246/PIA09246~thumb.jpg?as=webp'
             },
             '가니메데': {
                 '설명': '반지름 2,634km로 태양계에서 가장 큰 위성이다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Ganymede_g1_true-edit1.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA00706/PIA00706~thumb.jpg?as=webp'
             },
             '칼리스토': {
                 '설명': '태양계에서 세 번째로 큰 위성으로, 표면 충돌구가 많다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/8/83/Callisto.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA03456/PIA03456~thumb.jpg?as=webp'
             },
         },
     },
