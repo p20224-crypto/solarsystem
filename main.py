@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('🌌 태양계 행성들의 위성')
+st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
 selected_planet = st.selectbox('행성을 선택해주세요:', [
@@ -126,13 +126,13 @@ if st.button('특징 보기'):
         대표적인_위성 = planet_data[selected_planet].get('대표적인_위성', '정보 없음')
         위성_특징 = planet_data[selected_planet].get('위성_특징', None)
 
-        st.subheader(f"🪐 {selected_planet}")
+        st.subheader(f"{selected_planet}")
         st.write(f"**특징**: {특징}")
         st.write(f"**대표적인 위성**: {대표적인_위성}")
 
         if isinstance(위성_특징, dict):
             for 위성, 정보 in 위성_특징.items():
-                st.markdown(f"### 🛰️ {위성}")
+                st.markdown(f"### {위성}")
                 st.write(정보['설명'])
                 st.image(정보['이미지'], use_container_width=True)
         else:
