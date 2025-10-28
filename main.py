@@ -130,8 +130,10 @@ if st.button('특징 생성'):
 
         # 위성_특징이 dict이면 문단 나누어 표시
         if isinstance(위성_특징, dict):
-            for 위성, 설명 in 위성_특징.items():
-                st.markdown(f"**{위성}**  \n{설명}\n")
+     for 위성, 정보 in 위성_특징.items():
+        st.markdown(f"### {위성}")
+        st.write(정보['설명'])
+        st.image(정보['이미지'], use_column_width=True)
         else:
             st.write(위성_특징 or "위성 관련 상세 정보가 없습니다.")
     else:
