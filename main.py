@@ -69,11 +69,11 @@ planet_data = {
         '위성_특징': {
             '타이탄': {
                 '설명': '토성의 가장 큰 위성으로, 소형 천체망원경으로 관찰할 수 있다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Titan_in_true_color.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA08736/PIA08736~thumb.jpg?as=webp'
             },
             '엔셀라두스': {
                 '설명': '지름이 504km밖에 되지 않은 매우 작은 위성으로, 얼음 기둥이 분출되는 현상이 있다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Enceladus_from_Cassini_Orbit_114.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/JPL-2015_10_28-PIA17202/JPL-2015_10_28-PIA17202~thumb.jpg?as=webp'
             },
             '미마스': {
                 '설명': '토성의 7번째로 큰 자연 위성으로, 표면의 거대한 충돌구가 특징이다.',
@@ -85,17 +85,17 @@ planet_data = {
         '특징': '푸른색을 띠는 가스 행성으로, 자전축이 거의 옆으로 누워있다.',
         '대표적인_위성': '세토보스, 티타니아, 미란다',
         '위성_특징': {
-            '세토보스': {
-                '설명': '천왕성의 가장 바깥쪽 불규칙 위성 중 하나이다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Setebos_Uranus_moon.jpg'
+            '아리엘': {
+                '설명': '천왕성의 위성 중에 가장 반사율이 높다.',
+                '이미지': 'https://images-assets.nasa.gov/image/PIA01534/PIA01534~medium.jpg'
             },
             '티타니아': {
                 '설명': '천왕성의 위성들 중 가장 크다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Titania_%28moon%29_color.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA00036/PIA00036~thumb.jpg?as=webp'
             },
             '미란다': {
                 '설명': '천왕성의 둥근 다섯 개의 위성 중 가장 작고 가장 안쪽에 위치한다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Miranda.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA02217/PIA02217~thumb.jpg?as=webp'
             },
         },
     },
@@ -105,11 +105,11 @@ planet_data = {
         '위성_특징': {
             '트리톤': {
                 '설명': '해왕성의 가장 큰 위성으로, 역행 공전을 한다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Triton_moon_mosaic_Voyager_2_%28large%29.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA01536/PIA01536~medium.jpg'
             },
             '나이아드': {
                 '설명': '해왕성에 가까운 궤도를 가진 작은 위성이다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Naiad_moon_of_Neptune.png'
+                '이미지': 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMjFfMjA3%2FMDAxNjE2MjcyMjY3Mzc3.GcVCyEpuBOjmL5MYKMx7nhQO6PRPLOZw69Xq82sWNHMg.q-XXl9uFfxqt4wo3PBV00gcN_slPFe8PrVjUpWI7-P4g.JPEG.efremov%2F6582ca2b0be9989efeb08938850dd031.jpg&type=sc960_832'
             },
             '탈라사': {
                 '설명': '불규칙한 모양이며, 위성들의 파편이 뭉쳐 만들어졌을 가능성이 있다.',
