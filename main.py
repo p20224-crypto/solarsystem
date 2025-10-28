@@ -23,7 +23,7 @@ planet_data = {
         '위성_특징': {
             '달': {
                 '설명': '지구에서 가장 가까운 천체이다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001861/GSFC_20171208_Archive_e001861~thumb.jpg?as=webp'
             },
         },
     },
