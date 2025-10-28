@@ -33,7 +33,7 @@ planet_data = {
         '위성_특징': {
             '포보스': {
                 '설명': '화성을 공전하고 있는 두 위성 중 가까이 있는 위성이다.',
-                '이미지': 'https://upload.wikimedia.org/wikipedia/commons/0/02/Phobos_colour_2008.jpg'
+                '이미지': 'https://images-assets.nasa.gov/image/PIA10367/PIA10367~medium.jpg'
             },
             '데이모스': {
                 '설명': '화성의 두 번째 위성으로, 포보스보다 작고 더 멀리 위치해 있으며, 미국의 천문학자인 아사프 홀이 발견했다.',
