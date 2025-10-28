@@ -38,7 +38,12 @@ for i, q in enumerate(quiz):
     st.write(f"**{q['question']}**")
 
     if not st.session_state.answered[i]:
-        user_answer = st.radio("정답을 선택하세요:", q["options"], key=f"radio{i}")
+        user_answer = st.radio(
+    "정답을 선택하세요:", 
+    q["options"], 
+    key=f"radio{i}", 
+    index=None  # ✅ 기본 선택 없음
+)
 
         if st.button("확인", key=f"btn{i}"):
             st.session_state.answered[i] = True
