@@ -2,6 +2,8 @@ import streamlit as st
 
 import streamlit as st
 
+import streamlit as st
+
 st.markdown("""
 <style>
 @keyframes gradientMove {
@@ -29,7 +31,8 @@ st.markdown("""
 .stApp h1 {
     color: #dbeafe;
     text-shadow: 2px 2px 5px #000;
-    font-weight: 900;
+    font-weight: 900
+}
 
 .stApp h3 {
     color: #ffd166;
@@ -56,6 +59,7 @@ div.stButton > button:hover {
 }
 </style>
 """, unsafe_allow_html=True)
+
 st.title("태양계 퀴즈")
 
 # 퀴즈 데이터
