@@ -1,38 +1,36 @@
 import streamlit as st
 
-import streamlit as st
-
 st.markdown("""
-    <style>
-    @keyframes gradientMove {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
+<style>
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
-    [data-testid="stAppViewContainer"] {
-        background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
-        background-size: 300% 300%;
-        animation: gradientMove 12s ease infinite;
-        color: #1b2a4e;
-        transition: all 0.5s ease;
-    }
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: #1b2a4e;
+    transition: all 0.5s ease;
+}
 
-    [data-testid="stSidebar"] {
-        background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
-        background-size: 300% 300%;
-        animation: gradientMove 12s ease infinite;  /* ⭐ 이 줄 추가 */
-        color: white;
-        transition: all 0.5s ease;
-    }
-    </style>
+[data-testid="stSidebar"] {
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.stApp h1 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 900;
+}
+</style>
 """, unsafe_allow_html=True)
-
-    .stApp h1 {
-        color: #1b2a4e;
-        text-shadow: 1px 1px 8px rgba(255,255,255,0.6);
-        font-weight: 900;
-    }
 
     div.stButton > button {
         background: linear-gradient(90deg, #89f7fe, #66a6ff);
