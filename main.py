@@ -1,7 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
 st.markdown("""
 <style>
 @keyframes gradientMove {
@@ -51,6 +49,7 @@ div.stButton > button:hover {
 }
 </style>
 """, unsafe_allow_html=True)
+
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
