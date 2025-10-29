@@ -1,21 +1,11 @@
 import streamlit as st
 
-st.markdown(
-    """
-<style>
-.pulse {
-    animation: pulse 2s infinite;
-}
-@keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
-}
-</style>
-    """,
-    unsafe_allow_html=True
-)
-
+st.markdown("""
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background: linear-gradient(135deg, #00111a, #002b3d); /* 어두운 파란색 우주 배경 */
+        color: white;
+    }
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
