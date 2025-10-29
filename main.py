@@ -1,5 +1,37 @@
 import streamlit as st
 
+st.markdown(
+    """
+<style>
+.stApp {
+    background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #FFFFFF;
+}
+</style>
+    """,
+    unsafe_allow_html=True
+)
+
+# 5️⃣ 애니메이션 (pulse 효과) CSS 추가
+st.markdown(
+    """
+<style>
+.pulse {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+</style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
