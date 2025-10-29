@@ -32,7 +32,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-    div.stButton > button {
+div.stButton > button {
         background: linear-gradient(90deg, #89f7fe, #66a6ff);
         color: #1b2a4e;
         border-radius: 12px;
