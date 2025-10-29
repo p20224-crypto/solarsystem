@@ -4,11 +4,24 @@ import streamlit as st
 
 st.markdown("""
     <style>
+    @keyframes gradientMove {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
     [data-testid="stAppViewContainer"] {
-        background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
-        position: relative;
-        overflow: hidden;
+        background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+        background-size: 300% 300%;
+        animation: gradientMove 12s ease infinite;
         color: #1b2a4e;
+        transition: all 0.5s ease;
     }
 
     [data-testid="stSidebar"] {
