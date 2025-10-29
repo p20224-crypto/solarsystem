@@ -52,12 +52,10 @@ div.stButton > button:hover {
 
 st.title('태양계 행성들의 위성')
 
-# 사용자 입력 받기
 selected_planet = st.selectbox('행성을 선택해주세요:', [
     '수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성'
 ])
 
-# 행성 데이터
 planet_data = {
     '수성': {
         '특징': '태양에서 가장 가깝고 태양계에서 가장 작은 행성이다.',
@@ -169,7 +167,6 @@ planet_data = {
     },
 }
 
-# 버튼 눌렀을 때 정보 출력
 if st.button('특징 보기'):
     if selected_planet in planet_data:
         특징 = planet_data[selected_planet].get('특징', '정보 없음')
