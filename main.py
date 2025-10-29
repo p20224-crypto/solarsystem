@@ -25,7 +25,7 @@ st.markdown("""
     }
 
     [data-testid="stSidebar"] {
-        background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+        background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
         color: white;
     }
 
