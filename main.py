@@ -8,7 +8,7 @@ st.markdown("""
     }
 
     [data-testid="stSidebar"] {
-        background: linear-gradient(135deg, #002b3d, #004466);
+    background: linear-gradient(135deg, #b3ecff, #80dfff);
         color: white;
     }
 
