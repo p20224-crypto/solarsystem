@@ -1,5 +1,7 @@
 import streamlit as st
 
+backgroundColor = "#F0F0F0"
+
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
