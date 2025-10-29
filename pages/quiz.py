@@ -37,7 +37,7 @@ st.markdown("""
 }
 
 .stApp p {
-    color: #a5b4fc;
+    color: #4b5563;
     font-size: 1.1em;
     text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
     font-weight: 500; #문제 내용 색
