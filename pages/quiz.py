@@ -28,12 +28,14 @@ st.markdown("""
     color: #dbeafe;
     text-shadow: 2px 2px 5px #000;
     font-weight: 900; #제목
+    text-shadow: none;
 }
 
 .stApp h3 {
     color: #0f172a;
     text-shadow: 1px 1px 4px #000;
     font-weight: 800; #문제 제목 색
+    text-shadow: none;
 }
 
 .stApp p {
