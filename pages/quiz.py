@@ -67,7 +67,6 @@ div.stButton > button:hover {
 
 st.title("태양계 퀴즈")
 
-# 퀴즈 데이터
 quiz = [
     {
         "question": "태양계에서 가장 큰 행성은?",
@@ -101,13 +100,11 @@ quiz = [
     },
 ]
 
-# 점수 저장
 if "score" not in st.session_state:
     st.session_state.score = 0
 if "answered" not in st.session_state:
-    st.session_state.answered = [False] * len(quiz)
+    st.session_state.answered = [False] * len(quiz) #점수
 
-# 문제 표시
 for i, q in enumerate(quiz):
     st.subheader(f"문제 {i+1}")
     st.write(f"**{q['question']}**")
@@ -117,7 +114,7 @@ for i, q in enumerate(quiz):
     "정답을 선택하세요:", 
     q["options"], 
     key=f"radio{i}", 
-    index=None
+    index=None #문제
 )
 
         if st.button("확인", key=f"btn{i}"):
