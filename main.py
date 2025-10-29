@@ -21,7 +21,7 @@ st.markdown("""
     background-size: 300% 300%;
     animation: gradientMove 12s ease infinite;
     color: #f8faff;
-    transition: all 0.5s ease; /*왼쪽 사이드
+    transition: all 0.5s ease; /*왼쪽 사이드*/
 }
 
 .stApp h1 {
