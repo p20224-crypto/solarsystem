@@ -3,8 +3,6 @@ import streamlit as st
 st.markdown("""
     <style>
     [data-testid="stAppViewContainer"] {
-    <style>
-    [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
         position: relative;
         overflow: hidden;
