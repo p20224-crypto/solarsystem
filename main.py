@@ -2,7 +2,6 @@ import streamlit as st
 
 backgroundColor = "##F5F5F5"
 
-    """
     <style>
     .stApp {
         background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
@@ -11,7 +10,7 @@ backgroundColor = "##F5F5F5"
         background-blend-mode: lighten;
     }
     </style>
-    """,
+
     unsafe_allow_html=True
 
 st.title('태양계 행성들의 위성')
