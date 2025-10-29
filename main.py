@@ -2,6 +2,8 @@ import streamlit as st
 
 backgroundColor = "##F5F5F5"
 
+st.markdown(
+    """
     <style>
     .stApp {
         background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
