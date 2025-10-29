@@ -8,6 +8,18 @@ st.markdown("""
         overflow: hidden;
         color: #202530;
     }
+        [data-testid="stAppViewContainer"]::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: radial-gradient(white 1px, transparent 1px),
+                    radial-gradient(white 1px, transparent 1px);
+        background-size: 3px 3px, 2px 2px;
+        background-position: 0 0, 50px 50px;
+        opacity: 0.4;
+        animation: twinkle 4s infinite ease-in-out alternate;
+        z-index: 0;
+    }
 
     [data-testid="stSidebar"] {
     background: linear-gradient(135deg, #a18cd1, #fbc2eb);
