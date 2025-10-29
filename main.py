@@ -9,9 +9,10 @@ backgroundColor = "##F5F5F5"
         background-attachment: fixed;
         background-blend-mode: lighten;
     }
-    </style>,
-
+    </style>
+    """,
     unsafe_allow_html=True
+)
 
 st.title('태양계 행성들의 위성')
 
