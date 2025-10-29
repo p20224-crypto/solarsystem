@@ -5,7 +5,7 @@ st.markdown("""
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    100% { background-position: 0% 50%; } /*배경 애니메이션*/
 }
 
 [data-testid="stAppViewContainer"] {
@@ -13,7 +13,7 @@ st.markdown("""
     background-size: 300% 300%;
     animation: gradientMove 12s ease infinite;
     color: white;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; /*배경화면*/
 }
 
 [data-testid="stSidebar"] {
@@ -21,21 +21,21 @@ st.markdown("""
     background-size: 300% 300%;
     animation: gradientMove 12s ease infinite;
     color: #f8faff;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; /*왼쪽 사이드바*/
 }
 
 .stApp h1 {
     color: #dbeafe;
     text-shadow: 2px 2px 5px #000;
     font-weight: 900;
-    text-shadow: none;
+    text-shadow: none; /*제목*/
 }
 
 .stApp h3 {
     color: #0f172a;
     text-shadow: 1px 1px 4px #000;
     font-weight: 800;
-    text-shadow: none;
+    text-shadow: none; /*소제목*/
 }
 
 .stApp p {
@@ -43,7 +43,7 @@ st.markdown("""
     font-size: 1.1em;
     text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
     font-weight: 500;
-    text-shadow: none;
+    text-shadow: none; /*문제*/
 }
 
 div.stButton > button {
@@ -55,13 +55,13 @@ div.stButton > button {
     font-weight: bold;
     border: none;
     box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /*버튼*/
 }
 
 div.stButton > button:hover {
     background: linear-gradient(90deg, #66a6ff, #89f7fe);
     box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
-    transform: scale(1.05);
+    transform: scale(1.05); /*버튼 올렸을때*/
 </style>
 """, unsafe_allow_html=True)
 
