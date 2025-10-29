@@ -1,11 +1,13 @@
 import streamlit as st
 
+import streamlit as st
+
 st.markdown("""
 <style>
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; } #배경 애니메이션
+    100% { background-position: 0% 50%; } /* 배경 애니메이션 */
 }
 
 [data-testid="stAppViewContainer"] {
@@ -13,7 +15,7 @@ st.markdown("""
     background-size: 300% 300%;
     animation: gradientMove 12s ease infinite;
     color: white;
-    transition: all 0.5s ease; #메인 화면 배경
+    transition: all 0.5s ease; /* 메인 화면 배경 */
 }
 
 [data-testid="stSidebar"] {
@@ -21,13 +23,19 @@ st.markdown("""
     background-size: 300% 300%;
     animation: gradientMove 12s ease infinite;
     color: #f8faff;
-    transition: all 0.5s ease; #왼쪽 사이드바
+    transition: all 0.5s ease; /* 왼쪽 사이드바 */
 }
 
 .stApp h1 {
     color: #dbeafe;
     text-shadow: 2px 2px 5px #000;
-    font-weight: 900; #제목 
+    font-weight: 900; /* 제목 */
+}
+
+.stApp h3 {
+    color: #ffd166; /* 밝은 노란색 */
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 800;
 }
 
 div.stButton > button {
@@ -39,17 +47,16 @@ div.stButton > button {
     font-weight: bold;
     border: none;
     box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
-    transition: all 0.3s ease; #버튼 
+    transition: all 0.3s ease; /* 버튼 */
 }
 
 div.stButton > button:hover {
     background: linear-gradient(90deg, #66a6ff, #89f7fe);
     box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
-    transform: scale(1.05); #버튼에 마우스 올렸을때
+    transform: scale(1.05); /* 버튼에 마우스 올렸을때 */
 }
 </style>
 """, unsafe_allow_html=True)
-
 st.title("태양계 퀴즈")
 
 # 퀴즈 데이터
