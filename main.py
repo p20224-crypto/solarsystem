@@ -1,6 +1,6 @@
 import streamlit as st
 
-backgroundColor = "#F0F0F0"
+backgroundColor = "##F5F5F5"
 
 st.markdown(
     f"""
