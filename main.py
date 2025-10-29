@@ -6,16 +6,18 @@ st.markdown(
     """
 <style>
 .stApp {
-    background-image: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d");
+    background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-blend-mode: lighten;
+    color: #FFFFFF;
 }
 </style>
     """,
     unsafe_allow_html=True
 )
+
+st.markdown("<h1 style='text-align:center;'>🌌 태양계 행성들의 위성</h1>", unsafe_allow_html=True)
 
 st.title('태양계 행성들의 위성')
 
