@@ -1,5 +1,55 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; } #배경 애니메이션
+}
+
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: white;
+    transition: all 0.5s ease; #메인 화면 배경
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: #f8faff;
+    transition: all 0.5s ease; #왼쪽 사이드바
+}
+
+.stApp h1 {
+    color: #dbeafe;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 900; #제목 
+}
+
+div.stButton > button {
+    background: linear-gradient(90deg, #89f7fe, #66a6ff);
+    color: #1b2a4e;
+    border-radius: 12px;
+    height: 3em;
+    width: 10em;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
+    transition: all 0.3s ease; #버튼 
+}
+
+div.stButton > button:hover {
+    background: linear-gradient(90deg, #66a6ff, #89f7fe);
+    box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
+    transform: scale(1.05); #버튼에 마우스 올렸을때
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("태양계 퀴즈")
 
 # 퀴즈 데이터
