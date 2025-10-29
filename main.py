@@ -27,7 +27,7 @@ st.markdown("""
 }
 
 .stApp h1 {
-    color: #00d4ff;
+    color: #00f5ff;
     text-shadow: 2px 2px 5px #000;
     font-weight: 900;
 }
