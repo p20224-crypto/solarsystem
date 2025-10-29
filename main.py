@@ -2,6 +2,17 @@ import streamlit as st
 
 backgroundColor = "#F0F0F0"
 
+st.markdown(
+    f"""
+    <style>
+        .stApp {{
+            background-color: {backgroundColor};
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
