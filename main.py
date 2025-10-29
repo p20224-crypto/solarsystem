@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown("""
     <style>
     [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    background: linear-gradient(135deg, #5f72bd, #9b23ea);
         color: white;
     }
 
