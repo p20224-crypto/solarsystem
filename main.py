@@ -4,14 +4,14 @@ backgroundColor = "##F5F5F5"
 
 st.markdown(
     """
-    <style>
-    .stApp {
-        background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
-        background-size: cover;
-        background-attachment: fixed;
-        background-blend-mode: lighten;
-    }
-    </style>
+<style>
+.stApp {
+    background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+</style>
     """,
     unsafe_allow_html=True
 )
