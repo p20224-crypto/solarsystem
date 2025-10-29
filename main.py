@@ -1,39 +1,42 @@
 import streamlit as st
 
+import streamlit as st
+
 st.markdown("""
     <style>
     [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
         position: relative;
         overflow: hidden;
-        color: #202530;
+        color: #1b2a4e;
+    }
 
     [data-testid="stSidebar"] {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+        background: linear-gradient(135deg, #a18cd1, #fbc2eb);
         color: white;
     }
 
     .stApp h1 {
-        color: #ffcc00;
-        text-shadow: 2px 2px 5px #000;
+        color: #1b2a4e;
+        text-shadow: 1px 1px 8px rgba(255,255,255,0.6);
         font-weight: 900;
     }
 
     div.stButton > button {
-        background-color: #0066cc;
-        color: white;
+        background: linear-gradient(90deg, #89f7fe, #66a6ff);
+        color: #1b2a4e;
         border-radius: 12px;
         height: 3em;
         width: 10em;
         font-weight: bold;
         border: none;
-        box-shadow: 0px 0px 10px #00bfff;
+        box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
         transition: all 0.3s ease;
     }
 
     div.stButton > button:hover {
-        background-color: #0099ff;
-        box-shadow: 0px 0px 20px #33ccff;
+        background: linear-gradient(90deg, #66a6ff, #89f7fe);
+        box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
         transform: scale(1.05);
     }
     </style>
