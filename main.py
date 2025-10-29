@@ -1,11 +1,43 @@
 import streamlit as st
 
-st.markdown(
+st.markdown("""
     <style>
     [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #00111a, #002b3d);
         color: white;
     }
+
+    [data-testid="stSidebar"] {
+        background: linear-gradient(135deg, #002b3d, #004466);
+        color: white;
+    }
+
+    .stApp h1 {
+        color: #ffcc00;
+        text-shadow: 2px 2px 5px #000;
+        font-weight: 900;
+    }
+
+    div.stButton > button {
+        background-color: #0066cc;
+        color: white;
+        border-radius: 12px;
+        height: 3em;
+        width: 10em;
+        font-weight: bold;
+        border: none;
+        box-shadow: 0px 0px 10px #00bfff;
+        transition: all 0.3s ease;
+    }
+
+    div.stButton > button:hover {
+        background-color: #0099ff;
+        box-shadow: 0px 0px 20px #33ccff;
+        transform: scale(1.05);
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title('태양계 행성들의 위성')
 
 # 사용자 입력 받기
