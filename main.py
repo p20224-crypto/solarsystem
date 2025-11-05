@@ -9,47 +9,46 @@ st.markdown("""
 }
 
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb, #fad0c4, #a1c4fd);
-    background-size: 400% 400%;
-    animation: gradientMove 18s ease-in-out infinite;
-    color: #fff;
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: white;
     transition: all 0.5s ease; /*배경화면*/
 }
 
 [data-testid="stSidebar"] {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb, #a1c4fd);
-    background-size: 400% 400%;
-    animation: gradientMove 18s ease-in-out infinite;
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
     color: #f8faff;
     transition: all 0.5s ease; /*왼쪽 사이드*/
 }
 
 .stApp h1 {
-    color: #ffffff;
-    text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
-    font-weight: 800; /*제목*/
+    color: #dbeafe;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 900; /*제목*/
 }
 
 div.stButton > button {
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
-    color: #2b2b2b;
-    border-radius: 15px;
-    height: 3.2em;
-    width: 11em;
+    background: linear-gradient(90deg, #89f7fe, #66a6ff);
+    color: #1b2a4e;
+    border-radius: 12px;
+    height: 3em;
+    width: 10em;
     font-weight: bold;
     border: none;
-    box-shadow: 0px 0px 12px rgba(255, 182, 193, 0.6);
-    transition: all 0.4s ease; /*버튼*/
+    box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
+    transition: all 0.3s ease; /*버튼*/
 }
 
 div.stButton > button:hover {
-    background: linear-gradient(90deg, #fad0c4, #ff9a9e);
-    box-shadow: 0px 0px 25px rgba(255, 182, 193, 0.8);
-    transform: scale(1.08); /*버튼 올렸을때*/
+    background: linear-gradient(90deg, #66a6ff, #89f7fe);
+    box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
+    transform: scale(1.05); /*버튼 올렸을때*/
 }
 </style>
 """, unsafe_allow_html=True)
-
 st.title('태양계 행성들의 위성')
 
 selected_planet = st.selectbox('행성을 선택해주세요:', [
