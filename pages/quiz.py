@@ -118,7 +118,7 @@ for i, q in enumerate(quiz):
 )
 
         if st.button("확인", key=f"btn{i}"):
-                st.session_state.answered[i] = True
+            st.session_state.answered[i] = True
             if user_answer == q["answer"]:
                 st.success("정답!")
                 st.session_state.score += 1
