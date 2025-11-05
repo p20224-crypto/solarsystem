@@ -178,6 +178,8 @@ if st.button('특징 보기'):
         st.write(f"**대표적인 위성**: {대표적인_위성}")
 
         st.markdown(f"<h2 style='color:#FFD700; text-shadow:1px 1px 3px #000;'>🌞 {selected_planet}</h2>", unsafe_allow_html=True)
+
+        # 특징 / 대표 위성 색상 변경
         st.markdown(f"<p style='color:#FFFFFF; font-size:18px;'>🪐 <b>특징:</b> {특징}</p>", unsafe_allow_html=True)
         st.markdown(f"<p style='color:#E0FFFF; font-size:18px;'>🌙 <b>대표적인 위성:</b> {대표적인_위성}</p>", unsafe_allow_html=True)
 
