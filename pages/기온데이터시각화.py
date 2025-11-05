@@ -30,4 +30,4 @@ plt.xticks(rotation=45)
 
 
 # Streamlit에 그래프 표시
-st.pyplot(fig)
+st.pyplot(plt)
