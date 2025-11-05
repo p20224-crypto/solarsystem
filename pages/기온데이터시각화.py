@@ -1,7 +1,11 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from matplotlib import rc, font_manager
 import pandas as pd
+import matplotlib.font_manager as fm
+
+# 1️⃣ 한글 폰트 등록 (NanumGothic.ttf 예시)
+fm.fontManager.addfont("NanumGothic.ttf")  # 폰트 파일 경로
+plt.rcParams['font.family'] = 'NanumGothic'
 
 
 # 데이터
