@@ -177,6 +177,10 @@ if st.button('특징 보기'):
         st.write(f"**특징**: {특징}")
         st.write(f"**대표적인 위성**: {대표적인_위성}")
 
+        st.markdown(f"<h2 style='color:#FFD700; text-shadow:1px 1px 3px #000;'>🌞 {selected_planet}</h2>", unsafe_allow_html=True)
+        st.markdown(f"<p style='color:#FFFFFF; font-size:18px;'>🪐 <b>특징:</b> {특징}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='color:#E0FFFF; font-size:18px;'>🌙 <b>대표적인 위성:</b> {대표적인_위성}</p>", unsafe_allow_html=True)
+
         if isinstance(위성_특징, dict):
             for 위성, 정보 in 위성_특징.items():
                 st.markdown(f"### {위성}")
