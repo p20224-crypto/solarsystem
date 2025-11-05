@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-import koreanize_matplotib
+import koreanize_matplotlib
 
 # 데이터
 data = {
