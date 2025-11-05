@@ -27,7 +27,7 @@ st.markdown("""
 .stApp h1 {
     color: #dbeafe;
     text-shadow: 2px 2px 5px #000;
-    font-weight: 1000; /*제목*/
+    font-weight: 900; /*제목*/
 }
 
 div.stButton > button {
@@ -39,13 +39,13 @@ div.stButton > button {
     font-weight: bold;
     border: none;
     box-shadow: 0px 0px 10px rgba(102,166,255,0.5);
-    transition: all 0.1s ease; /*버튼*/
+    transition: all 0.3s ease; /*버튼*/
 }
 
 div.stButton > button:hover {
     background: linear-gradient(90deg, #66a6ff, #89f7fe);
     box-shadow: 0px 0px 20px rgba(137,247,254,0.8);
-    transform: scale(1.00); /*버튼 올렸을때*/
+    transform: scale(1.05); /*버튼 올렸을때*/
 }
 </style>
 """, unsafe_allow_html=True)
