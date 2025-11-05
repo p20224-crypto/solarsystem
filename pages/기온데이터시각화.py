@@ -27,7 +27,7 @@ plt.figure(figsize=(20, 10))
 plt.bar(df["행성 - 위성"], df["거리(km)"], color='skyblue')
 plt.xlabel("행성 - 위성")
 plt.ylabel("거리 (km)")
-plt.title("distance between solar systems")
+plt.title("Distance between Solar Systems")
 plt.xticks(rotation=45)
 
 
