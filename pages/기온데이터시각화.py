@@ -10,7 +10,7 @@ data = {
     "행성 - 위성": ["Earth-Moon", "Mars-Phobos", "Mars-Deimos", "Jupiter-Io", "Jupiter-Europa", "Jupiter-Ganymede", "Jupiter-Callisto",
            "Saturn-Titan", "Saturn-Enceladus", "Saturn-Mimas", "Uranus-Ariel", "Uranus-Titania", "Uranus-Miranda",
            "Neptune-Triton", "Neptune-Nereid", "Neptune-Naiad"],
-    "거리(km)": [384000, 6000, 23460, 420000, 670900, 1070400, 1880000,
+    "Distance(km)": [384000, 6000, 23460, 420000, 670900, 1070400, 1880000,
               1220000, 2380000, 185539, 1900000, 43600, 129900,
               350000, 5513400, 64000]
 }
